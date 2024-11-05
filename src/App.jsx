@@ -2,9 +2,12 @@ import "./App.css";
 import { Button } from "./components/ui/button/button";
 import { Icon } from "@iconify/react";
 import { Textfield } from "./components/ui/input/textfield/textfield";
+import { Header } from "./components/shared/header/header";
 function App() {
     return (
         <>
+            <Header></Header>
+
             <div style={{ padding: "20px" }}>
                 <h1>Button Variants</h1>
                 <div style={{ marginBottom: "20px" }}>
