@@ -1,6 +1,7 @@
 import "./App.css";
 import { Button } from "./components/ui/button/button";
 import { Icon } from "@iconify/react";
+import { Textfield } from "./components/ui/input/textfield/textfield";
 function App() {
     return (
         <>
@@ -94,6 +95,20 @@ function App() {
                             <Icon icon="mdi:information" />
                         </Button>
                     </div>
+                </div>
+
+                <div style={{ padding: "20px" }}>
+                    <h1>Textfield Example</h1>
+                    <Textfield placeholder="Enter your text here" />
+                    <Textfield
+                        type="password"
+                        placeholder="Enter your password"
+                    />
+                    <Textfield disabled placeholder="Disabled input" />
+                    <Textfield
+                        placeholder="Search..."
+                        icon={<Icon icon="lucide:search" />}
+                    />
                 </div>
             </div>
         </>
