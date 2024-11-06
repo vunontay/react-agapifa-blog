@@ -6,8 +6,8 @@
     z-index: 1000;
 }
 
-.header-wrapper {
-    min-height: 130px;
+.header__wrapper {
+    min-height: 112px;
     width: 100%;
     max-width: 1440px;
     margin: 0 auto;
@@ -15,20 +15,20 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
+
 /* ------------------------------------------HEADER ICON---------------------------------------- */
-.header-icon {
+.header__icon {
     display: flex;
     align-items: center;
     gap: 20px;
 }
-.header-icon img {
+.header__icon-logo {
     width: 48px;
     height: auto;
 }
-.header-icon > h1 {
+.header__icon-title {
     font-weight: 700;
     font-size: 48px;
     line-height: 50px;
@@ -37,13 +37,13 @@
 }
 
 /* ------------------------------------------HEADER MENU---------------------------------------- */
-.header-menu-list {
+.header__menu-list {
     display: flex;
     align-items: center;
     gap: 60px;
 }
 
-.header-menu-item {
+.header__menu-item {
     text-transform: uppercase;
     font-weight: 700;
     font-size: 20px;
@@ -55,19 +55,28 @@
     cursor: pointer;
 }
 
-/* ------------------------------------------HEADER SEARCH---------------------------------------- */
+.header__menu-icon {
+    width: 20px;
+    height: 20px;
+}
 
-.header-search {
+/* ------------------------------------------HEADER SEARCH---------------------------------------- */
+.header__search {
     min-width: 362px;
 }
 
+.header__search-icon {
+    width: 20px;
+    height: 20px;
+}
+
 /* ------------------------------------------HEADER SOCIAL---------------------------------------- */
-.header-social-icons {
+.header__social-list {
     display: flex;
     align-items: center;
     gap: 20px;
 }
-.header-social-icons svg {
+.header__social-item svg {
     width: 20px;
     height: 20px;
     cursor: pointer;
